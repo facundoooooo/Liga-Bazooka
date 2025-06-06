@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #00ff88;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #0f0f0f;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 255, 136, 0.2);
+}
+
+h1 {
+  font-size: 2em;
+  color: #00ff88;
+}
+
+.contenedor {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.perfil-dtoke {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.perfil-dtoke img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+}
+
+.rol {
+  font-style: italic;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.redes a {
+  margin: 10px;
+  color: #00ff88;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.redes a:hover {
+  text-decoration: underline;
+}
+
+.info-liga h3 {
+  color: #00ff88;
+  margin-bottom: 10px;
+}
+
+.info-liga p {
+  line-height: 1.6;
+  color: #ccc;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: #00ff88;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.activo {
+  background-color: #00ff88;
+  color: #121212;
+  font-weight: bold;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+}
